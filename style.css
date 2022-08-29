@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.header-item{
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-item>:first-child{
+  margin-right: auto;
+}
+
+.header-logo{
+  height: 70px;
+}
+
+.nav-list{
+  margin-left: auto;
+  display: flex;
+  margin-right: 0;
+  line-height: 70px;
+}
+
+.nav-list-item{
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.nav-list-item>a{
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.main-visual{
+  height: 650px;
+  width: 100%;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  text-align: center;
+  color: #fafafa;
+}
+
+.main-visual-text>h1{
+  padding: 200px 0 10px 0;
+  font-size: 64px;
+}
+
+.main-visual-text>p{
+  font-size: 20px;
+}
+
+.portfolio{
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.portfolio>.contents{
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portfolio>.contents>h2{
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.portfolio>.contents>.bar{
+  height: 3px;
+  width: 70px;
+  margin: 8px auto 0 auto;
+  border-top: solid #ec715f;
+}
+
+.portfolio>.contents>p{
+  margin: 30px auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.images>.image:nth-child(n){
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.images>.image:nth-child(1){
+  background-image: url(img/sketch.jpg);
+}
+
+.images>.image:nth-child(2){
+  background-image: url(img/websuku.png);
+}
+
+.images>.image:nth-child(3){
+  background-image: url(img/write.jpg);
+}
+
+.images>.image:nth-child(4){
+  background-image: url(img/webcamp.png);
+}
+
+.images>.image:nth-child(5){
+  background-image: url(img/talk.jpg);
+}
+
+.images>.image:nth-child(6){
+  background-image: url(img/webcamp-mother.png);
+}
+
+.images>.image:nth-child(-n+3){
+  margin-bottom: 10px;
+}
+
+.images>.image:nth-child(3n-1){
+  margin-left: 10px;
+  margin-right: 10px;
+}
