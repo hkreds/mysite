@@ -62,8 +62,19 @@ header{
 }
 
 
+.portfolio{
+  width: 100%;
+  background-color: #eceff1;
+  padding: 90px 0;
+}
+
+.portfolio>.content{
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 h2{
-  padding-top: 90px;
   font-size: 32px;
   color: #000000;
 }
@@ -81,21 +92,9 @@ p{
   color: #000000;
 }
 
-.portfolio{
-  width: 100%;
-  background-color: #eceff1;
-}
-
-.portfolio>.contents{
-  width: 920px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .images{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 90px;
 }
 
 .images>.image:nth-child(n){
@@ -141,12 +140,12 @@ p{
 .feature{
   width: 980px;
   margin: 0 auto;
+  padding: 90px 0;
   text-align: center;
 }
 
-.feature>.contents{
+.feature>.content{
   display: flex;
-  margin-bottom: 90px;
 }
 
 .fa-solid{
@@ -159,14 +158,61 @@ h3{
   color: #000000;
 }
 
-.feature>.contents>.box{
+.feature>.content>.box{
   width: 320px;
 }
 
-.feature>.contents>.box:nth-child(2){
+.feature>.content>.box:nth-child(2){
   margin: 0 10px;
 }
 
 .box>p{
   margin: 0;
+}
+
+.profile{
+  padding: 90px 0;
+  background-color: #eceef1;
+  text-align: center;
+}
+
+.profile>.content{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.sub-content{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-icon{
+  width: 512px;
+}
+
+.my-icon{
+  background-image: url(img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-text{
+  width: 512px;
+}
+
+.my-name>h3{
+  margin: 0;
+}
+
+.my-name>p{
+  margin: 5px 0 20px 0;
+}
+
+.my-skills>h3{
+  margin: 0;
+}
+
+.my-skills>p{
+  margin: 5px 0 0 0;
 }
